@@ -1,5 +1,5 @@
 fun main() {
-    val ammount = cardPayCommission("Мир", transaction = 40011.0)
+    val ammount = cardPayCommission("Мир", transaction = 1000.0)
     println("Комиссия составила: ${String.format("%.2f",ammount)} руб.")
 }
 
